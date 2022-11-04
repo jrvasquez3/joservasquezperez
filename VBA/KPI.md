@@ -1,6 +1,6 @@
 <div>
     <ul class="nav">
-        <li class="nav"><a href="google.com">Home</a></li>
+        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/">Home</a></li>
         <li class="nav"><a href="google.com">About</a></li>
         <li class="nav"><a href="google.com">Contact</a></li>
     </ul>

@@ -1,7 +1,7 @@
 <div>
     <ul class="nav">
-        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">Home</a></li>
-        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">About</a></li>
+        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/">Home</a></li>
+        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/about">About</a></li>
         <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">Contact</a></li>
     </ul>
 </div>
