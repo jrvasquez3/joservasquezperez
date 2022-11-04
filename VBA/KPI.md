@@ -8,7 +8,7 @@
 
 <link rel="stylesheet" href="styles.css">
 
-#
+
 # KPI 
 ### Author: Jose R Vasquez Perez
 
@@ -18,14 +18,14 @@
 3. [END SHIFT - not done](#third-example)
 4. [CURRENT DATA - not done](#fourth-examplehttpwwwfourthexamplecom)
 
-#
+
 
 I have made and created KPI for my past employer and thus, I want to share some of my knowledge to any reader curious about how to create KPIs using VBA. Below are some basic instructions I have created.
 
 1. <b>Enable Developer Tools:</b>
 # Enable Developer Tools
 
-#
+
 First Step before developing anything with *Visual Basic for Applications* would be by enabling developer mode inside the application where you want to develop the dashboard (Microsoft Excel for our purposes).
 
 2. <b>Create Start Shift Button:</b>

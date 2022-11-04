@@ -24,3 +24,7 @@
     float: left;
     width: 10%;
 }
+body {
+  background-color: color;
+  color: azure;
+}
