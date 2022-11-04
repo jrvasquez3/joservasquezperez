@@ -28,3 +28,6 @@ body {
   background-color:black;
   color: azure;
 }
+pre code {
+  color: black;
+}

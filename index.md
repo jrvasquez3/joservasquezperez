@@ -14,7 +14,6 @@
     B.S Industrial & Systems Engineering
     Minor: Mathematics
 
-
 ------------------------------------
 ------------------------------------
 
