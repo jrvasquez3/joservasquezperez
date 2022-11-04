@@ -30,6 +30,7 @@
 <a style="list-style-type: none" href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/BasicMost.html">BasicMost</a>
 
 **School Projects**
+
 <a style="list-style-type: none" href="https://diamond-app-jose-vasquez.herokuapp.com/">Python Dash - Diamond Data
 
 **Drawings**

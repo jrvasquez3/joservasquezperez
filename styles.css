@@ -31,3 +31,6 @@ body {
 pre code {
   color: black;
 }
+table {
+  background-color: #333;
+}
