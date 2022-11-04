@@ -1,14 +1,14 @@
-ul {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
   }
-  li {
+  .nav li {
     float: left;
   }
-  li a {
+  .nav li a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;

@@ -1,8 +1,8 @@
 <div>
-    <ul>
-        <li><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI.md">Home</a></li>
-        <li><a href="google.com">About</a></li>
-        <li><a href="google.com">Contact</a></li>
+    <ul class="nav">
+        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">Home</a></li>
+        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">About</a></li>
+        <li class="nav"><a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">Contact</a></li>
     </ul>
 </div>
 
@@ -22,8 +22,13 @@
 
 > > Below, are some of my past projects or activities that I am able to share. Feel free to explore. If you have any questions, or want to contact me, please send me an email to:  **jrvasquez221@yahoo.com**
 
-**VBA**
+**VBA Projects**
+
+<a style="list-style-type: none" href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">KPI</a>
+
 **Jupyter Notebooks**
+
 **School Projects**
+
 **Drawings**
 
