@@ -31,8 +31,9 @@ body {
 pre code {
   color: black;
 }
-tr td {
+td {
   background-color: #333;
+  color: #111;
 }
 th {
   background-color: #333;
