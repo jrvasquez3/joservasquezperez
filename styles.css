@@ -31,6 +31,9 @@ body {
 pre code {
   color: black;
 }
-table {
+tbody {
+  background-color: #333;
+}
+th {
   background-color: #333;
 }
