@@ -6,7 +6,9 @@
     </ul>
 </div>
 
---------------------------------
+------------------------------------
+
+
 <link rel="stylesheet" href="styles.css">
 <img src="pfppic.jpg" class="callout"/> 
 
@@ -21,26 +23,49 @@
 
 > > Below, are some of my past projects or activities that I am able to share. Feel free to explore. If you have any questions, or want to contact me, please send me an email to:  **jrvasquez221@yahoo.com**
 
+
+## Projects
+--------------------------
+
 **VBA Projects**
 
-<a style="list-style-type: none" href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">KPI</a>
+<div>
+    <ul class="nav">
+        <li class="nav">
+            <a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">
+                <img src="vba_kpi.png" alt="KPI" style="max-width: 150px; width:90%"><h3>KPI</h3>
+            </a>
+        </li>
+    </ul>
+</div>
 
 **Jupyter Notebooks**
+<div>
+    <ul class="nav">
+        <li class="nav">
+            <a href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/BasicMost.html">
+                <img src="jupyter_basic.png" alt="BasicMost" style="max-width: 150px; width:90%"><h3>BasicMOST</h3>
+            </a>
+        </li>
+        <li class="nav">
+            <a href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/shifting_bottleneck.html">
+                <img src="jupyter_shift.png" alt="bottleneck" style="max-width: 150px; width: 90%"><h3>Shifting Bottleneck Heuristics</h3>
+            </a>
+        </li>
+    </ul>
+</div>
 
-<div class="row">
-  <div class="column">
-    <a class="content" href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/BasicMost.html">
-      <img src="jupyter_basic.png" alt="Mountains" style="width:90%">
-      <h3>BasicMOST</h3>
-      <p>Improved layout of spacers stored on a rack using BasicMOST</p>
-    </a>
-  </div>
-  <div class="column">
-    <a class="content" href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/shifting_bottleneck.html">
-      <img src="jupyter_shift.png" alt="Lights" style="width:90%"><h>Shifting Bottleneck Heuristics</h>
-      <p>Python code I made to solve shifitng bottleneck heuristics. Included is a video lecture I created explaining the methodology used to solve it by hand</p>
-    </a>
-  </div>
+
+**Youtube Videos**
+
+<div>
+    <ul class="nav">
+        <li class="nav">
+            <a href="https://www.youtube.com/watch?v=fRoRHd4Z7M4">
+                <img src="youtube_shift.png" alt="bottleneck" style="max-width: 150px; width:90%"><h3>Shifting Bottleneck Heuristic - Job Shop Problem OR</h3>
+            </a>
+        </li>
+    </ul>
 </div>
 
 
@@ -49,11 +74,3 @@
 <a style="list-style-type: none" href="https://diamond-app-jose-vasquez.herokuapp.com/">Python Dash - Diamond Data</a>
 
 **Drawings**
-
-
-**Youtube Videos**
-
-<a style="list-style-type: none" href="https://www.youtube.com/watch?v=fRoRHd4Z7M4">Shifting Bottleneck Heuristic - Job Shop Problem OR</a>
-
-
-
