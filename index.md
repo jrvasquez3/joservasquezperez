@@ -33,7 +33,7 @@
     <ul class="nav">
         <li class="nav">
             <a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">
-                <img src="vba_kpi.png" alt="KPI" style="max-width: 150px; width:90%"><h3>KPI</h3>
+                <img src="vba_kpi.jpg" alt="KPI" style="max-width: 150px; width:90%"><h3>KPI</h3>
             </a>
         </li>
     </ul>
@@ -44,12 +44,12 @@
     <ul class="nav">
         <li class="nav">
             <a href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/BasicMost.html">
-                <img src="jupyter_basic.png" alt="BasicMost" style="max-width: 150px; width:90%"><h3>BasicMOST</h3>
+                <img src="jupyter_basic.jpg" alt="BasicMost" style="max-width: 150px; width:90%"><h3>BasicMOST</h3>
             </a>
         </li>
         <li class="nav">
             <a href="https://jrvasquez3.github.io/joservasquezperez/Jupyter/shifting_bottleneck.html">
-                <img src="jupyter_shift.png" alt="bottleneck" style="max-width: 150px; width: 90%"><h3>Shifting Bottleneck Heuristics</h3>
+                <img src="jupyter_shift.jpg" alt="bottleneck" style="max-width: 150px; width: 90%"><h3>Shifting Bottleneck Heuristics</h3>
             </a>
         </li>
     </ul>
@@ -62,7 +62,7 @@
     <ul class="nav">
         <li class="nav">
             <a href="https://www.youtube.com/watch?v=fRoRHd4Z7M4">
-                <img src="youtube_shift.png" alt="bottleneck" style="max-width: 150px; width:90%"><h3>Shifting Bottleneck Heuristic - Job Shop Problem OR</h3>
+                <img src="youtube_shift.jpg" alt="bottleneck" style="max-width: 150px; width:90%"><h3>Shifting Bottleneck Heuristic - Job Shop Problem OR</h3>
             </a>
         </li>
     </ul>
