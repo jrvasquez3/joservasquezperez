@@ -121,7 +121,7 @@ Dim last As Integer
 Dim Name As String
 Dim x As String
 ```
-We want so that when the operator / user presses "End Shift", all the data found in between the beggining of the shift and the end of the shift is added into a cell (total). 
+We want so that when an operator or user presses "End Shift", all the data found in between the beggining of the shift and the end of the shift is added into a cell ( in other words the total). 
 
 Below, the code adds the standard information for entered data (current time, date, label stating end shift, etc.)
 
@@ -165,6 +165,53 @@ Below is a screenshot of the resultant output on the record sheet when "End Shif
 
 # Insert Data to Record Sheet
 
+Add a *Command Button* into the sheet. Then, in VBA editor, if you want to allow the user to Insert Data into the Record Sheet depending on some predetermined conditions (standardized event) do the following:
+
+* below is an example of an event called 'Mechanical'. Users press this button when a mechanical problem occurs
+
+```vb
+' add a predetermined event that an operator / user experiences, that way
+' when the said event occurs, they can just press the button
+' and it will record it into the KPI
+
+Sub mechanical()
+Dim last As Integer
+
+'adds "Mechanical" line to Shift record
+
+last = Sheets("Shift Record").Cells(Rows.Count, 1).End(xlUp).Row + 1
+Sheets("Shift Record").Cells(last, 1).Value = "Mechanical"
+Sheets("Shift Record").Cells(last, 2).Value = Sheets("Panel").Range("X13")
+Sheets("Shift Record").Cells(last, 3).Value = Sheets("Panel").Range("W14")
+Sheets("Shift Record").Cells(last, 4).Value = Date
+Sheets("Shift Record").Cells(last, 5).Value = Time
+
+End Sub
+
+```
+
+
+
+
+If you are going this route, I recommend to add a "Back to Production" button. Basically, the main function of the button is to emphasize the fact that an event previously recorded into the Record Sheet has been resolved / is no longer causing down time etc. This is helpful to mantain records of approximately how long each event took away from production and other analysis. 
+
+
+* Example: 
+
+```vb
+Sub BacktoP()
+Dim last As Integer
+'adds "back to production" line to Shift record
+
+last = Sheets("Shift Record").Cells(Rows.Count, 1).End(xlUp).Row + 1
+Sheets("Shift Record").Cells(last, 1).Value = "Back to Production"
+Sheets("Shift Record").Cells(last, 2).Value = Sheets("Panel").Range("X13")
+Sheets("Shift Record").Cells(last, 3).Value = Sheets("Panel").Range("W14")
+Sheets("Shift Record").Cells(last, 4).Value = Date
+Sheets("Shift Record").Cells(last, 5).Value = Time
+
+End Sub
+```
 
 
 
