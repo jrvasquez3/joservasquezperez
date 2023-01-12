@@ -27,17 +27,6 @@
 ## Projects
 --------------------------
 
-**VBA Projects**
-
-<div>
-    <ul class="nav">
-        <li class="nav">
-            <a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">
-                <img src="vba_kpi.jpg" alt="KPI" style="max-width: 150px; width:90%"><h3>KPI</h3>
-            </a>
-        </li>
-    </ul>
-</div>
 
 **Jupyter Notebooks**
 <div>
@@ -67,6 +56,45 @@
         </li>
     </ul>
 </div>
+
+
+
+
+
+### Currently Working on:
+
+----------------------------------
+
+
+**SAAMS Gui**
+
+<div>
+    <ul class="nav">
+        <li class="nav">
+            <a href="https://github.com/jrvasquez3/SAAMS_Gui#readme">
+                <img src="saams.jpg" alt="SAAMS Gui" style="max-width: 150px; width:90%"><h3>SAAMS Gui</h3>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+**VBA Projects**
+
+<div>
+    <ul class="nav">
+        <li class="nav">
+            <a href="https://jrvasquez3.github.io/joservasquezperez/VBA/KPI">
+                <img src="vba_kpi.jpg" alt="KPI" style="max-width: 150px; width:90%"><h3>KPI</h3>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
 
 
 **School Projects**

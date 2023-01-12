@@ -16,7 +16,7 @@
 1. [Enable Developer Tools](#enable-developer-tools)
 2. [START SHIFT](#start-shift)
 3. [END SHIFT](#end-shift)
-4. [Insert Data to Record Sheet](#Insert-Data-to-Record-Sheet)
+4. [Insert Data to Record Sheet](#insert-data-to-record-sheet)
 
 
 
@@ -217,8 +217,55 @@ End Sub
 
 ------------------
 
-# General Operation Button
+
+You can also add important key data for determining performance. This can be done by adding an option allowing users to manually input say Customer information or other important metrics that can only be physically measured into the KPI.
 
 
+* Below is an image of a basic view of the input form
+
+
+![Input Data](vba_input.jpg "Input Data")
+
+
+To add the data into the Record Sheet, simply do the following:
+
+
+```vb
+
+Sub Fill_Data()
+Dim last As Integer
+Dim i As Integer
+'Author: Jose R Vasquez P
+
+
+'Types Coil number, today's date and time into last row - JV
+last = Sheets("Shift Record").Cells(Rows.Count, 1).End(xlUp).Row + 1
+Sheets("Shift Record").Cells(last, 1).Value = "Coilnumber_" & Sheets("Panel").Batchnumber.Text
+Sheets("Shift Record").Cells(last, 2).Value = Sheets("Panel").Range("X13")
+Sheets("Shift Record").Cells(last, 3).Value = Sheets("Panel").Range("W14")
+Sheets("Shift Record").Cells(last, 4).Value = Date
+Sheets("Shift Record").Cells(last, 5).Value = Time
+Sheets("Shift Record").Cells(last, 6).Value = Sheets("Panel").insertNt.Text
+Sheets("Shift Record").Cells(last, 7).Value = Sheets("Panel").insertQty.Text
+Sheets("Shift Record").Cells(last, 9).Value = Sheets("Panel").ComboBox1.Text
+
+```
+
+
+To add items to the ComboBox (for example, add different customer names), you can either hard code it or simply reference a cell range where the options for the combobox are given. I prefer the second option as this will allow regular employees to add customer names in the future without the need of someone having to code new options.
+
+
+```vb
+Private Sub ComboBox1_Change()
+
+'Method to reference a range of cells for the combobox
+ComboBox1.List = Sheets("Sheet1").Range("A1:A3").Value
+
+
+'Method to "hard code" the options.
+ComboBox1.List = Array("Option 1", "Option 2", "Option 3")
+
+End Sub
+```
 
 
