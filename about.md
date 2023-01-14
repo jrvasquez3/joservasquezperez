@@ -16,7 +16,10 @@ My name is Jose R Vasquez Perez. I obtained my Bachelor's of Science in Industri
 
 During my free time, I enjoy to travel, eat out and to draw and paint. If anyone is interested in seeing some of my digital art, feel free to visit :
 
-**https://www.deviantart.com/ghosthuntnaru**
+
+
+<a href="https://www.deviantart.com/ghosthuntnaru">https://www.deviantart.com/ghosthuntnaru</a>
+
 
 
 ## Download Resume
