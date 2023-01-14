@@ -72,7 +72,7 @@
     <ul class="nav">
         <li class="nav">
             <a href="https://github.com/jrvasquez3/SAAMS_Gui#readme">
-                <img src="saams.jpg" alt="SAAMS Gui" style="max-width: 150px; width:90%"><h3>SAAMS Gui</h3>
+                <img src="saams.JPG" alt="SAAMS Gui" style="max-width: 150px; width:90%"><h3>SAAMS Gui</h3>
             </a>
         </li>
     </ul>
