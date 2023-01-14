@@ -13,9 +13,17 @@
 
 My name is Jose R Vasquez Perez. I obtained my Bachelor's of Science in Industrial and Systems Engineering with a Minor on Mathematics on May 2021 from The University of Texas at El Paso. I am always pursuing something new to learn and I am passionate about learning about how the world works. My current interests revolve around Data Science and Operations Research. 
 
+
 During my free time, I enjoy to travel, eat out and to draw and paint. If anyone is interested in seeing some of my digital art, feel free to visit :
 
 **https://www.deviantart.com/ghosthuntnaru**
+
+
+## Download Resume
+
+<a href="other\resume.pdf" download>Download PDF</a>
+
+
 
 ## Skills
 ------------------------------
@@ -25,7 +33,7 @@ During my free time, I enjoy to travel, eat out and to draw and paint. If anyone
 
 Skill   | Technologies | level
 ------ | ------|----------
-Python    | Flask, Dash, Tkinter, matplotlib, pandas, numpy   | Proficient
+Python    | Flask, Dash, Tkinter/ttkbootstrap, matplotlib, pandas, numpy   | Proficient
 R     |  Rmarkdown, RShiny  | Working Knowledge
 VBA      |      |  Proficient
 C          | OpenMP     | Working Knowledge
